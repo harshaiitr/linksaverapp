@@ -1,0 +1,19 @@
+{
+	"name": "hs1234/mvc",
+	"description": "Sample app",
+     "require":{
+     	"torophp/torophp": "dev-master",
+     	"twig/twig": "1.*"
+     },
+     "authors": [
+     	{
+     		"name": "hs1234",
+     		"email":"hs@gmail.com"
+     	}],
+"autoload":{
+     "psr-4":{
+          "link\\Controllers\\":"app/controllers",
+          "link\\Models\\":"app/models"
+     }
+}
+}

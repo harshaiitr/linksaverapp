@@ -15,7 +15,7 @@ Toro::serve([
 	'/signup/input'=>link\Controllers\PostSignupController::class,
 	'/submit'=>link\Controllers\PostInputController::class,
 	'/signout'=>link\Controllers\SignoutController::class,
-	'/search'=>link\Controllers\SearchController::class,
+	
 	
 	]);
 //Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation:

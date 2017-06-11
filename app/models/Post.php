@@ -4,8 +4,12 @@ namespace link\Models ;
 
 class Post{
 	public static function DB(){
+<<<<<<< HEAD
                 global $CONFIG;
 		$link = new \PDO("mysql:dbname={$CONFIG['dbname']};host={$CONFIG['dbhost']}",$CONFIG['dbuser'],$CONFIG['dbpass']);
+=======
+		$link = new \PDO("mysql:dbname=form1;host=localhost","root","harsha_sdslabs");
+>>>>>>> mvc_harsha
 		
 		return $link;
 	}
@@ -92,4 +96,8 @@ class Post{
 		
 
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> mvc_harsha
